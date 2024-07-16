@@ -189,3 +189,46 @@ width: 67%;
 .Mac .hero-title{
     color: white;
 }
+.product-container-phone{
+    display: none;
+}
+.product-container-phone .bullets > button{
+
+background-color: #2C2C2C;
+width: 10px;
+height: 10px;
+border-radius: 5px !important;
+border: none
+}
+@media (max-width:767px) {
+    .product-container-phone{
+        display: block;
+    }
+    .product-container{
+        display: none;
+    }
+    
+}
+.product-content > button{
+    padding: 10px 30px;
+    border: 1px solid black;
+    background-color: transparent;
+    border-radius: 6px;
+}
+.product-content > button.Mac{
+    border-color: white;
+    color: white;
+}
+.product-container-phone > .arrow-button{
+    transition: 0.8s;
+}
+.product-container-phone > .arrow-button .arrow{
+    display: none;
+    background-color: #2C2C2C;
+    opacity: 0.4;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+.product-container-phone > .arrow-button:hover .arrow{
+display: block;
+}
